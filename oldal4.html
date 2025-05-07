@@ -34,8 +34,40 @@
         </div>
     </nav>
    
-
-   
+    <div class="container mt-4">
+        <h2>Kapcsolatfelvételi űrlap</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Név</label>
+                <input type="text" class="form-control" id="name" placeholder="Add meg a neved">
+            </div>
+            <div class="form-group">
+                <label for="email">Email cím</label>
+                <input type="email" class="form-control" id="email" placeholder="Add meg az email címed">
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefonszám</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Add meg a telefonszámod">
+            </div>
+            <div class="form-group">
+                <label for="age">Életkor</label>
+                <input type="number" class="form-control" id="age" placeholder="Add meg az életkorod">
+            </div>
+            <div class="form-group">
+                <label for="gender">Nem</label>
+                <select class="form-control" id="gender">
+                    <option>Férfi</option>
+                    <option>Nő</option>
+                    <option>Egyéb</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Vélemény</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Írd meg a véleményed"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Küldés</button>
+        </form>
+    </div>
 </body>
 
 <footer>
