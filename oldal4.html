@@ -36,26 +36,26 @@
    
     <div class="container mt-4">
         <h2>Kapcsolatfelvételi űrlap</h2>
-        <form>
+        <form id="formid">
             <div class="form-group">
                 <label for="name">Név</label>
-                <input type="text" class="form-control" id="name" placeholder="Add meg a neved">
+                <input type="text" class="form-control" id="name" placeholder="Add meg a neved" required>
             </div>
             <div class="form-group">
                 <label for="email">Email cím</label>
-                <input type="email" class="form-control" id="email" placeholder="Add meg az email címed">
+                <input type="email" class="form-control" id="email" placeholder="Add meg az email címed" required>
             </div>
             <div class="form-group">
                 <label for="phone">Telefonszám</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Add meg a telefonszámod">
+                <input type="number" class="form-control" id="phone" placeholder="Add meg a telefonszámod" required>
             </div>
             <div class="form-group">
                 <label for="age">Életkor</label>
-                <input type="number" class="form-control" id="age" placeholder="Add meg az életkorod">
+                <input type="number" class="form-control" id="age" placeholder="Add meg az életkorod" required>
             </div>
             <div class="form-group">
                 <label for="gender">Nem</label>
-                <select class="form-control" id="gender">
+                <select class="form-control" id="gender" required>
                     <option>Férfi</option>
                     <option>Nő</option>
                     <option>Egyéb</option>
@@ -63,13 +63,14 @@
             </div>
             <div class="form-group">
                 <label for="message">Vélemény</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Írd meg a véleményed"></textarea>
+                <textarea class="form-control" id="message" rows="4" placeholder="Írd meg a véleményed" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Küldés</button>
         </form>
     </div>
+    <script src="script.js"></script>
+    <footer>
+        Vörös Márk Miklós || MG7V5J, Varga Bence || OW0PUO, Faragó Lajos Bence || UZBB3N
+    </footer>
 </body>
-
-<footer>
-    Vörös Márk Miklós || MG7V5J, Varga Bence || OW0PUO, Faragó Lajos Bence || UZBB3N
-</footer>
+</html>
